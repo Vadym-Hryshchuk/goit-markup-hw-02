@@ -95,7 +95,10 @@ body {
 
   color: rgba(255, 255, 255, 0.6);
 }
-
+.address .footer-link:hover,
+.address .footer-link:focus {
+  color: var(--hover-color);
+}
 /* Portfolio */
 .content-list .button {
   background-color: rgb(245, 245, 250);
